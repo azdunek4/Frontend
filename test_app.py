@@ -30,4 +30,8 @@ class Test(unittest.TestCase):
         assert response.status_code == 200
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     unittest.main()
+=======
+    unittest.main()
+>>>>>>> d39bb7f4a6eff005d004ef2152ae3e214eb2e062
