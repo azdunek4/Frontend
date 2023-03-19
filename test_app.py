@@ -29,9 +29,12 @@ class Test(unittest.TestCase):
         self.assertIn("Mocking get_animals function", response.text)
         assert response.status_code == 200
 
+#if __name__ == '__main__':
+#<<<<<<< HEAD
+#    unittest.main()
+#=======
+#    unittest.main()
+#>>>>>>> d39bb7f4a6eff005d004ef2152ae3e214eb2e062
+
 if __name__ == '__main__':
-<<<<<<< HEAD
     unittest.main()
-=======
-    unittest.main()
->>>>>>> d39bb7f4a6eff005d004ef2152ae3e214eb2e062
